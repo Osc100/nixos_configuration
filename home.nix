@@ -8,12 +8,22 @@
       packages = with pkgs; [
         # gui apps
         firefox
+        chromium
         inkscape
+        pkgs-unstable.obs-studio
+        pkgs-unstable.discord
         pkgs-unstable.ferdium
-        obsidian
-        mpv
+        pkgs-unstable.lutris
+        pkgs-unstable.obsidian
+        pkgs-unstable.postman
         pkgs-unstable.youtube-music
+        pkgs-unstable.cemu
+        anydesk
+        mpv
         remmina
+
+        # cli-apps
+        pkgs-unstable.mov-cli
 
         # wine
         wineWowPackages.stable
@@ -43,18 +53,25 @@
         # -- node js
         pkgs-unstable.nodejs
         pkgs-unstable.nodePackages.pnpm
+        pkgs-unstable.nodePackages.eas-cli
 
         # -- rust
         rustup
-     
+
+        # nvchad
+        gcc
+        ripgrep      
+
         # gnome extensions
         pkgs-unstable.gnomeExtensions.unite
         pkgs-unstable.gnomeExtensions.caffeine
         gnomeExtensions.aylurs-widgets
         pkgs-unstable.gnomeExtensions.blur-my-shell
         pkgs-unstable.gnomeExtensions.burn-my-windows
+
         # gnome themes
         gnome.gnome-tweaks
+        pkgs-unstable.catppuccin-gtk
         flat-remix-gnome
       ]; 
     };

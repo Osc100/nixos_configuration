@@ -97,13 +97,13 @@ in
       lsd
       btop
       htop
-      curl
+      nvd
       git
       ranger
-      wl-clipboard
       fzf
       bat
       lazygit
+      wl-clipboard
       pkgs-unstable.helix
       pkgs-unstable.nil
 
